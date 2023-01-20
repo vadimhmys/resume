@@ -13,7 +13,7 @@ dotsWrapper.addEventListener('click', e => {
     if(dot.tagName == 'SPAN') {
         chooseSlide(dot.dataset.dotNumber);
     }
-});
+},);
 
 arrowPrev.onclick = () => {
     changeSlide(-1);
