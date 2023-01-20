@@ -382,18 +382,71 @@ body {
     margin: 20px auto 0;
 }
 
-/*
-.certificates__item {
+.contacts-inner {
+    display: flex;
+    min-height: 400px;
+}
+
+.contacts-map {
+    flex-grow: 1;
+    border: 2px solid var(--color-stroke);
+} 
+
+.map-location {
     width: 100%;
-    height:calc();
+    height: 100%;
+}
+
+.contacts-content {
+    flex-grow: 1;
+}
+
+.contacts-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contacts-list {
+    padding: 40px 20px 40px 40px;
+    list-style: none;
+}
+
+.contacts-list__item {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 20px;
     background-size: cover;
 }
 
-.it-academy {
-    background-image: url(../assets/images/ITAcademy.jpg);
+.icon-phone {
+    background-image: url("../assets/icons/Phone_icon.svg");
 }
 
-.rsschool {
-    background-image: url(../assets/images/RSSchool.pdf);
+.icon-email {
+    background-image: url("../assets/icons/Email_icon.svg");
 }
-*/
+
+.icon-discord {
+    background-image: url("../assets/icons/Discord_icon.svg");
+}
+
+.contacts__info {
+    color: var(--color-text);
+}
+
+.contacts__link:hover {
+    color: var(--color-stroke);
+    text-decoration: underline;
+    transition: 0.5s;
+}
