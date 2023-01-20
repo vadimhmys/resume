@@ -8,14 +8,6 @@ let slides = document.querySelectorAll('.slide');
 let dots = document.querySelectorAll('.dot');
 let slideIndex = 1;
 
-slider.style.display = 'none';
-dotsWrapper.style.display = 'none';
-
-window.onload = () => {
-    slider.style.display = 'block';
-    dotsWrapper.style.display = 'block';
-};
-
 dotsWrapper.addEventListener('click', e => {
     let dot = e.target;
     if(dot.tagName == 'SPAN') {
