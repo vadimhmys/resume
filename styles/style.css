@@ -544,7 +544,140 @@ body {
 }
 
 
+@media (max-width: 940px) {
+    .header__content-title {
+        font-size: 64px;
+    }
+
+    .header__content-subtitle {
+        font-size: 26px;
+    }
+
+    .header__content-description {
+        font-size: 18px;
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 840px) {
+    .header__top {
+        font-size: 16px;
+    }
+
+    .header__content-title {
+        font-size: 48px;
+    }
+
+    .header__content-subtitle {
+        font-size: 21px;
+    }
+
+    .header__content-description::before,
+    .header__content-description::after {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .skills-item {
+        justify-content: center;
+    }
+
+    .skills-item__range {
+        width: 60%;
+    }
+
+    .skills__img {
+        width: 50%;
+        margin: 0 auto 20px;
+    }
+
+}
+
+
+@media (max-width: 730px) {
+    .header__content-title {
+        font-size: 38px;
+    }
+
+    .header__content-subtitle {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section {
+        padding: 15px 0;
+    }
+
+    .arrow-prev, .arrow-next {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .dots-wrapper {
+        padding-bottom: 0;
+    }
+
+    .contacts-title  {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .footer__inner {
+        justify-content: space-between;
+    }
+     
+}
+
+@media (max-width: 700px) {
+    .contacts-inner {
+        flex-wrap: wrap;
+    }
+
+    .contacts-map {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .contacts-list {
+        padding: 20px 20px 10px 60px;
+    }
+
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .footer__links {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .footer__copyright {
+        padding-right: 15px;
+    }
+}
+
 @media (max-width: 680px) {
+    .section {
+        padding: 10px 0;
+    }
+
     .burger__icon {
         display: block;
     }
@@ -555,5 +688,101 @@ body {
 
     .menu {
         display: none;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .section-title {
+        width: 80%;
+        background-image: linear-gradient(to bottom, var(--color-theme) 20px, var(--color-stroke) 20px, var(--color-stroke) 22px, var(--color-theme) 22px);
+    }
+
+    .skills-item__range {
+        width: 50%;
+    }
+}
+
+@media (max-width: 430px) {
+    .section {
+        padding: 5px 0;
+    }
+
+    .section-title {
+        font-size: 26px;
+        padding-bottom: 10px;
+        background-image: linear-gradient(to bottom, var(--color-theme) 17px, var(--color-stroke) 17px, var(--color-stroke) 19px, var(--color-theme) 19px);
+    }
+
+    .header__content-description {
+        width: 100%;
+    }
+
+    .skills-inner {
+        display: block;
+    }
+
+    .skills-item__range {
+        width: 40%;
+    }
+
+    .skills__img {
+        width: 70%;
+    }
+
+    .portfolio-title {
+        font-size: 21px;
+    }
+
+    .burger-menu__link {
+        font-size: 20px;
+    }
+
+    .slider {
+        padding-top: 20px;
+    }
+
+    .slide-text {
+        top: 30px;
+    }
+
+    .footer__link {
+        padding: 7px 5px;
+    }
+}
+
+@media (max-width: 360px) {
+    .about-content {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        background-image: linear-gradient(to bottom, var(--color-theme) 15px, var(--color-stroke) 15px, var(--color-stroke) 17px, var(--color-theme) 17px);
+    }
+
+    .slide-text {
+        font-size: 14px;
+    }
+
+    .arrow-prev, .arrow-next {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .portfolio-title {
+        font-size: 19px;
+    }
+
+    .portfolio-list__item {
+        margin: 10px 0 10px 40px;
+    }
+
+    .contacts-title {
+        font-size: 16px;
+    }
+
+    .contacts-list {
+        padding: 10px 20px;
     }
 }

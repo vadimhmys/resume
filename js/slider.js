@@ -11,7 +11,7 @@ let slideIndex = 1;
 dotsWrapper.addEventListener('click', e => {
     let dot = e.target;
     if(dot.tagName == 'SPAN') {
-        chooseSlide(dot.dataset.dotNumber);
+        chooseSlide(+dot.dataset.dotNumber);
     }
 },);
 
@@ -51,4 +51,5 @@ function showSlide(a) {
     slides[slideIndex - 1].style.display = 'block';
     dots[slideIndex - 1].classList.add('dot--active');
     slides[slideIndex - 1].classList.add('slide--active');
+    console.log(slideIndex);
 }
