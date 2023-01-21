@@ -23,7 +23,7 @@ for(let i = 0; i < 10; i++) {
 
     let skillsIcon = document.createElement('div');
     skillsIcon.className = 'skills-item__icon';
-    skillsIcon.style.backgroundImage = `url(../assets/icons/${technologies[i]}_icon.svg)`;
+    skillsIcon.style.backgroundImage = `url(assets/icons/${technologies[i]}_icon.svg)`;
 
     let skillsText = document.createElement('div');
     skillsText.className = 'skills-item__text';
